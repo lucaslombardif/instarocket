@@ -1,5 +1,5 @@
 <h1 align="center">
-      <br> Pequeno clone do Feed do Instagram<br />
+      <br> Pequeno clone do Feed do Instagram feito<br />
 </h1>
 
 <h1 align="center"> 
@@ -54,4 +54,17 @@ $ yarn
 #Inicie a aplicação 
 $ yarn start
 ```
-**Observação:** Para a aplicação funcionar de forma correta o backend tem que estar sendo executado quando o Frontend for iniciado. 
+
+### Rodando o Mobile:
+
+```bash
+#Vá até a pasta mobile 
+$ cd mobile 
+#Instale as dependências
+$ yarn 
+# Android 
+$ react-native run-android
+#iOS 
+$ react-native run-ios
+```
+**Observação:** Para a aplicação funcionar de forma correta o backend tem que estar sendo executado quando o Frontend e Mobile forem iniciados. 
