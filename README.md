@@ -1,10 +1,11 @@
 <h1 align="center">
-      <br>Pequeno clone do Feed do Instagram<br />
+      <br> :camera: Pequeno clone do Feed do Instagram<br/>
 </h1>
 
+
 <div align="center"> 
-      <img alt="Twitter" src="https://user-images.githubusercontent.com/23706340/72837105-b4762e80-3c6c-11ea-9b97-ccd9db9b0522.png?sanitize=true" />
-      </div> 
+     <img alt="Twitter" src="https://user-images.githubusercontent.com/23706340/72837105-b4762e80-3c6c-11ea-9b97-ccd9db9b0522.png?sanitize=true" />
+</div> 
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -13,7 +14,9 @@
 
 ## :rocket: Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias: 
+:point_down: Esse projeto foi desenvolvido com as seguintes tecnologias: :point_down:
+
+:point_right: [![Netlify Status](https://api.netlify.com/api/v1/badges/833ea213-ba4f-451e-9d0c-52b0352feeb0/deploy-status)](https://app.netlify.com/sites/instarocket-lf/deploys) :point_left:
 
 -  [Node.js](https://nodejs.org/en/)
 -  [Express](https://expressjs.com/)
@@ -32,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :information_source: Como usar 
 
-### Rodando o backend: 
+### :computer_mouse: Rodando o backend: 
 
 ```bash
 # Clone o Repositório
@@ -45,9 +48,9 @@ $ yarn
 $ yarn dev 
 ```
 
-Ou vá [aqui](https://instarocket-server.lucaslombardif.codes) 
+:point_right: Ou vá [aqui](https://instarocket-server.lucaslombardif.codes) 
 
-### Rodando o Frontend: 
+### :computer: Rodando o Frontend: 
 
 ```bash
 #Vá até a pasta frontend 
@@ -58,9 +61,9 @@ $ yarn
 $ yarn start
 ```
 
-Ou vá [aqui](https://instarocket.lucaslombardif.codes)
+:point_right: Ou vá [aqui](https://instarocket.lucaslombardif.codes)
 
-### Rodando o Mobile:
+### :iphone: Rodando o Mobile:
 
 ```bash
 #Vá até a pasta mobile 
