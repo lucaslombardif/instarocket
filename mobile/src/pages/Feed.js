@@ -120,8 +120,7 @@ const styles = StyleSheet.create({
     marginTop: 20
   },
   feedItemHeader: {
-    paddingHorizontal: 15,
-
+    paddingHorizontal: 17,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center'
@@ -141,13 +140,13 @@ const styles = StyleSheet.create({
     marginVertical: 15
   },
   feedItemFooter: {
-    paddingHorizontal: 15
+    paddingHorizontal: 17
   },
   actions: {
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   action: {
-    marginRight: 8
+    marginRight: 18,
   },
   likes: {
     marginTop: 15,
