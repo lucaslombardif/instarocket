@@ -28,6 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 -  [axios](https://github.com/axios/axios)
 -  [React Router](https://github.com/ReactTraining/react-router)
 -  [VS Code](https://code.visualstudio.com/)
+-  [React Native](https://reactnative.dev/)
 
 ## :information_source: Como usar 
 
