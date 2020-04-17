@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "author": "Lucas Lombardi Floriano",
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",

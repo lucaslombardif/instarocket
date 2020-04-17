@@ -1,5 +1,6 @@
 {
-  "name": "instarocketMobile",
+  "name": "mobile",
+  "author" : "Lucas Lombardi Floriano",
   "version": "0.0.1",
   "private": true,
   "scripts": {
