@@ -1,10 +1,10 @@
 <h1 align="center">
-      <br> Pequeno clone do Feed do Instagram feito<br />
+      <br>Pequeno clone do Feed do Instagram<br />
 </h1>
 
-<h1 align="center"> 
+<div align="center"> 
       <img alt="Twitter" src="https://user-images.githubusercontent.com/23706340/72837105-b4762e80-3c6c-11ea-9b97-ccd9db9b0522.png?sanitize=true" />
-      </h2> 
+      </div> 
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -45,6 +45,8 @@ $ yarn
 $ yarn dev 
 ```
 
+Ou vá [aqui](https://instarocket-server.lucaslombardif.codes) 
+
 ### Rodando o Frontend: 
 
 ```bash
@@ -55,6 +57,8 @@ $ yarn
 #Inicie a aplicação 
 $ yarn start
 ```
+
+Ou vá [aqui](https://instarocket.lucaslombardif.codes)
 
 ### Rodando o Mobile:
 
@@ -68,4 +72,3 @@ $ react-native run-android
 #iOS 
 $ react-native run-ios
 ```
-**Observação:** Para a aplicação funcionar de forma correta o backend tem que estar sendo executado quando o Frontend e Mobile forem iniciados. 

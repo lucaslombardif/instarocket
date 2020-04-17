@@ -40,7 +40,7 @@ export default class Feed extends Component {
   }
 
   registerToSocket = () => {
-    const socket = io('http://192.168.1.108:3333');
+    const socket = io('https://instarocket-server.lucaslombardif.codes');
 
     socket.on('post', newPost => {
       this.setState({ feed: [newPost, ...this.state.feed] });
@@ -78,7 +78,7 @@ export default class Feed extends Component {
 
               <Image
                 style={styles.feedImage}
-                source={{ uri: `http://192.168.1.108:3333/files/${item.image}` }}
+                source={{ uri: `https://instarocket-server.lucaslombardif.codes/files/${item.image}` }}
               />
 
               <View style={styles.feedItemFooter}>
