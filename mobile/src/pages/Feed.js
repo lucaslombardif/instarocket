@@ -5,8 +5,9 @@ import {
   Image,
   TouchableOpacity,
   FlatList,
-  StyleSheet
+  StyleSheet,
 } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 
 import io from 'socket.io-client';
 import api from '../services/api';
@@ -62,6 +63,40 @@ export default class Feed extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <View style={styles.storieContainer}>
+          <LinearGradient
+            colors={['#CA1D7E', '#E35157', '#F2703F']}
+            start={{ x: 0.0, y: 1.0 }} end={{ x: 1.0, y: 1.0 }}
+            style={styles.strorieItem}>
+            <Image source={{ uri: 'https://avatars2.githubusercontent.com/u/23706340?s=460&u=f7bf2df274fce3ecdb65e3eba5431bc6f424b8f5&v=4' }}
+              style={styles.storieImage} />
+          </LinearGradient>
+
+          <LinearGradient
+            colors={['#CA1D7E', '#E35157', '#F2703F']}
+            start={{ x: 0.0, y: 1.0 }} end={{ x: 1.0, y: 1.0 }}
+            style={styles.strorieItem}>
+            <Image source={{ uri: 'https://avatars2.githubusercontent.com/u/23706340?s=460&u=f7bf2df274fce3ecdb65e3eba5431bc6f424b8f5&v=4' }}
+              style={styles.storieImage} />
+          </LinearGradient>
+
+          <LinearGradient
+            colors={['#CA1D7E', '#E35157', '#F2703F']}
+            start={{ x: 0.0, y: 1.0 }} end={{ x: 1.0, y: 1.0 }}
+            style={styles.strorieItem}>
+            <Image source={{ uri: 'https://avatars2.githubusercontent.com/u/23706340?s=460&u=f7bf2df274fce3ecdb65e3eba5431bc6f424b8f5&v=4' }}
+              style={styles.storieImage} />
+          </LinearGradient>
+
+          <LinearGradient
+            colors={['#CA1D7E', '#E35157', '#F2703F']}
+            start={{ x: 0.0, y: 1.0 }} end={{ x: 1.0, y: 1.0 }}
+            style={styles.strorieItem}>
+            <Image source={{ uri: 'https://avatars2.githubusercontent.com/u/23706340?s=460&u=f7bf2df274fce3ecdb65e3eba5431bc6f424b8f5&v=4' }}
+              style={styles.storieImage} />
+          </LinearGradient>
+        </View>
+
         <FlatList
           data={this.state.feed}
           keyExtractor={post => post._id}
@@ -159,5 +194,28 @@ const styles = StyleSheet.create({
   },
   hashtags: {
     color: '#7159c1'
+  },
+  storieContainer: {
+    paddingHorizontal: 10,
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  strorieItem: {
+    marginTop: 8,
+    marginRight: 10,
+    height: 72,
+    width: 72,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 100,
+  },
+  storieImage: {
+    width: 65,
+    height: 65,
+    borderRadius: 65 / 2,
+    alignSelf: 'center',
+    borderColor: '#fff',
+    borderWidth: 3
   }
 });
