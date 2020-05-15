@@ -23,7 +23,7 @@ class Feed extends Component {
   }
 
   registerToSocket = () => {
-    const socket = io('https://instarocket-server.lucaslombardif.codes');
+    const socket = io('http://localhost:3333');
     //post, like
     socket.on('post', newPost => {
       this.setState({ feed: [newPost, ...this.state.feed] });
@@ -56,7 +56,7 @@ class Feed extends Component {
               <img src={more} alt="Mais" />
             </header>
 
-            <img src={`https://instarocket-server.lucaslombardif.codes/files/${posts.image}`} alt="" />
+            <img src={posts.urlImage} alt="" />
 
             <footer>
               <div className="actions">

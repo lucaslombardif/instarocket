@@ -37,6 +37,8 @@
 
 ### :computer_mouse: Rodando o backend: 
 
+Não esqueça de renomear o arquivo `.env.development` para `.env` e inserir as keys de seu Bucket S3. 
+
 ```bash
 # Clone o Repositório
 $  git clone https://github.com/lucaslombardif/instarocket.git
