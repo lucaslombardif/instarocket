@@ -16,7 +16,7 @@
 
 :point_down: Esse projeto foi desenvolvido com as seguintes tecnologias: :point_down:
 
-:point_right: [![Netlify Status](https://api.netlify.com/api/v1/badges/833ea213-ba4f-451e-9d0c-52b0352feeb0/deploy-status)](https://app.netlify.com/sites/instarocket-lf/deploys) :point_left:
+:point_right: [![Netlify Status](https://api.netlify.com/api/v1/badges/69b48002-0224-4cd8-8413-84878b0a0b01/deploy-status)](https://app.netlify.com/sites/instarocket-lf-new/deploys) :point_left:
 
 -  [Node.js](https://nodejs.org/en/)
 -  [Express](https://expressjs.com/)
@@ -37,7 +37,9 @@
 
 ### :computer_mouse: Rodando o backend: 
 
-Não esqueça de renomear o arquivo `.env.development` para `.env` e inserir as keys de seu Bucket S3. 
+- Não esqueça de renomear o arquivo `.env.development` para `.env` e inserir as keys de seu Bucket S3. 
+
+- Altere o [nome do bucket](https://github.com/lucaslombardif/instarocket/blob/621af3f7d5a834d2e2966df2c04a830abeab943b/backend/src/config/upload.js#L19) no arquivo `backend/src/config/upload.js` 
 
 ```bash
 # Clone o Repositório
@@ -63,7 +65,7 @@ $ yarn
 $ yarn start
 ```
 
-:point_right: Ou vá [aqui](https://instarocket.lucaslombardif.codes)
+:point_right: Ou vá [aqui](https://instarocket.lucaslombardif.tech)
 
 ### :iphone: Rodando o Mobile:
 
